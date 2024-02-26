@@ -17,11 +17,17 @@ int main() {
       }
     }
     int m = sizeof(arr3) / sizeof(arr3[0]); 
-    int l=0;
+    int o = sizeof(arr2) / sizeof(arr2[0]); 
     for (int k = 0; k < m; k++) {
-      
+      for(int l=0;l<o;l++){
+          if(arr3[k]!=arr[l]){
+              arr3[m+1]=arr
+          }
+      }
     }
 
-    
+    // for(int k=0;k<10;k++){
+    //     cout<<arr3[k];
+    // }
     return 0;
 }
