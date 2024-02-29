@@ -1,2 +1,2 @@
 # DSA-JOURNEY
-this repository holds all of my solved dsa problems
+this repository holds all of my solved dsa problems.
